@@ -1,0 +1,51 @@
+{
+  "name": "jagadeshanh/logaudit",
+  "description": "A logaudit",
+  "license": "MIT",
+  "keywords": [
+    "logaudit"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "~5.6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.6.0",
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jagadeshanh\\Logaudit\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jagadeshanh\\Logaudit\\Tests\\": "tests"
+    },
+    "files": [
+      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jagadeshanh\\Logaudit\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
