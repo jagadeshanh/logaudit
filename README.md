@@ -1,7 +1,7 @@
 # Logaudit
 
 [![Build Status](https://travis-ci.org/jagadeshanh/logaudit.svg?branch=master)](https://travis-ci.org/jagadeshanh/logaudit)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+[![StyleCI](https://github.styleci.io/repos/140619305/shield?branch=master)]
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jagadeshanh/logaudit/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jagadeshanh/logaudit/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
 [![Coverage Status](https://coveralls.io/repos/github/jagadeshanh/logaudit/badge.svg?branch=master)](https://coveralls.io/github/jagadeshanh/logaudit?branch=master)
