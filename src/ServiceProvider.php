@@ -37,7 +37,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     protected function registerEvents()
     {
         Event::listen('Jagadeshanh\Logaudit\Events\ExceptionOccurred', function ($event) {
-            Mail::to('e@e.com')->send(new ExceptionWasThrown($event->exception));
+            Mail::to(config('logaudit.to_email'))->send(new ExceptionWasThrown($event->exception));
         });
     }
 }

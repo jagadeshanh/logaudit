@@ -1,11 +1,7 @@
 # Logaudit
 
 [![Build Status](https://travis-ci.org/jagadeshanh/logaudit.svg?branch=master)](https://travis-ci.org/jagadeshanh/logaudit)
-[![StyleCI](https://github.styleci.io/repos/140619305/shield?branch=master)]
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jagadeshanh/logaudit/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jagadeshanh/logaudit/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/jagadeshanh/logaudit/badge.svg?branch=master)](https://coveralls.io/github/jagadeshanh/logaudit?branch=master)
-
+[![StyleCI](https://github.styleci.io/repos/140619305/shield?branch=master)](https://github.styleci.io/repos/140619305/shield?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/jagadeshanh/logaudit.svg)](https://packagist.org/packages/jagadeshanh/logaudit)
 [![Packagist](https://poser.pugx.org/jagadeshanh/logaudit/d/total.svg)](https://packagist.org/packages/jagadeshanh/logaudit)
 [![Packagist](https://img.shields.io/packagist/l/jagadeshanh/logaudit.svg)](https://packagist.org/packages/jagadeshanh/logaudit)
