@@ -19,7 +19,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $this->loadViewsFrom(__DIR__.'/views', 'logaudit');
 
-        $this->registerEvents();
+        $this->registerEvent();
     }
 
     public function register()
@@ -34,10 +34,14 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         });
     }
 
-    protected function registerEvents()
+    protected function registerEvent()
     {
         Event::listen('Jagadeshanh\Logaudit\Events\ExceptionOccurred', function ($event) {
-            Mail::to(config('logaudit.to_email'))->send(new ExceptionWasThrown($event->exception));
+            $message = (new ExceptionWasThrown($event->exception))
+                ->onConnection(config('logaudit.mail_connection'))
+                ->onQueue('logaudit.mail_queue');
+
+            Mail::to(config('logaudit.to_email'))->queue($message);
         });
     }
 }
