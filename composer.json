@@ -1,20 +1,26 @@
 {
   "name": "jagadeshanh/logaudit",
-  "description": "A logaudit",
+  "description": "Logaudit for laravel 5.4 and up",
   "license": "MIT",
   "keywords": [
-    "logaudit"
+    "logaudit",
+    "laravel",
+    "jagadeshanh",
+    "laravel email exceptions"
   ],
+  "homepage": "https://github.com/jagadeshanh/logaudit",
   "type": "library",
   "authors": [
     {
       "name": "Jagadesha NH",
-      "email": "jagadeshanh@gmail.com"
+      "email": "jagadeshanh@gmail.com",
+      "homepage": "https://creativewebdesigners.in",
+      "role": "Developer"
     }
   ],
   "require": {
     "php": ">=7.0",
-    "illuminate/support": "~5.6.0"
+    "illuminate/support": "~5.4.0|~5.5.0|~5.6.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.6.0",
@@ -28,13 +34,14 @@
   "autoload-dev": {
     "psr-4": {
       "Jagadeshanh\\Logaudit\\Tests\\": "tests"
-    },
-    "files": [
-      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
-    ]
+    }
   },
   "scripts": {
     "phpunit": "phpunit"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
   },
   "extra": {
     "laravel": {
@@ -42,10 +49,5 @@
         "Jagadeshanh\\Logaudit\\ServiceProvider"
       ]
     }
-  },
-  "config": {
-    "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true
   }
 }

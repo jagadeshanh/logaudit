@@ -3,7 +3,6 @@
 namespace Jagadeshanh\Logaudit;
 
 use Illuminate\Support\Facades\Event;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Jagadeshanh\Logaudit\Mail\ExceptionWasThrown;
 
